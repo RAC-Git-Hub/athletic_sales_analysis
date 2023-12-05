@@ -31,8 +31,7 @@ computer. Then take the following steps:
 >the state and city that have the greatest number of products sold. Your final table should look like
 >the following image:
 >
->![Photo_5_001](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/main/Pictures/Photo_5_001.
->png)
+>![Photo_5_001](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/183ca985317c289673a0fc9993cdc191952c79c5/Photo_5_001.png)
 >
 >### Determine which Region had the Most Sales
 >1. Use either the groupby or pivot_table function to create a multi-index DataFrame with the "region",
@@ -42,8 +41,7 @@ computer. Then take the following steps:
 >3. Sort the results in ascending order to show the top five regions, including the state and city that
 >generated the most sales. Your final table should look like the following image:
 >
->![Photo_5_002](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/main/Pictures/Photo_5_002.
->png)
+>![Photo_5_002](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/183ca985317c289673a0fc9993cdc191952c79c5/Photo_5_002.png)
 >
 >### Determine which Retailer had the Most Sales
 >1. Use either the groupby or pivot_table function to create a multi-index DataFrame with the
@@ -52,8 +50,7 @@ computer. Then take the following steps:
 >3. Sort the results in ascending order to show the top five retailers along with their region, state,
 >and city that generated the most sales. Your final table should look like the following image:
 >
->![Photo_5_003](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/main/Pictures/Photo_5_003.
->png)
+>![Photo_5_003](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/183ca985317c289673a0fc9993cdc191952c79c5/Photo_5_003.png)
 >
 >### Determine which Retailer Sold the Most Women's Athletic Footwear
 >1. Filter the combined DataFrame to create a DataFrame with only women's athletic footwear sales data.
@@ -64,8 +61,7 @@ computer. Then take the following steps:
 >and city that sold the most women's athletic footwear. Your final table should look like the following
 >image:
 >
->![Photo_5_004](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/main/Pictures/Photo_5_004.
->png)
+>![Photo_5_004](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/183ca985317c289673a0fc9993cdc191952c79c5/Photo_5_004.png)
 >
 >### Determine the Day with the Most Women's Athletic Footwear Sales
 >1. Create a pivot table with the "invoice_date" column as the index and the "total_sales" column as the
@@ -76,8 +72,7 @@ computer. Then take the following steps:
 >4. Sort the resampled DataFrame in ascending order to show the top 10 days that generated the most
 >women's athletic footwear sales. Your final table should look like the following image:
 >
->![Photo_5_005](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/main/Pictures/Photo_5_005.
->png)
+>![Photo_5_005](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/183ca985317c289673a0fc9993cdc191952c79c5/Photo_5_005.png)
 >
 >### Determine the Week with the Most Women's Athletic Footwear Sales
 >1. Apply resample to the pivot table above, place the data into weekly bins, and get the total sales
@@ -85,8 +80,7 @@ computer. Then take the following steps:
 >2. Sort the resampled DataFrame in ascending order to show the top 10 weeks that generated the most
 >women's athletic footwear sales. Your final table should look like the following image:
 >
->![Photo_5_006](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/main/Pictures/Photo_5_006.
->png)
+>![Photo_5_006](https://github.com/RAC-Git-Hub/athletic_sales_analysis/blob/183ca985317c289673a0fc9993cdc191952c79c5/Photo_5_006.png)
 >
 ## Sources
 The starter codes were obtained in November 2023 from the instructional staff of
